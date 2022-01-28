@@ -1,0 +1,54 @@
+#chinese-chess-board-canvas,
+#chinese-chess-board {
+  position: absolute;
+  margin-top: 50px;
+}
+
+#chinese-chess-board {
+	padding: 15px 0 0 65px;
+}
+
+.piece-box {
+  width: 48px;
+	height: 48px;
+	margin: 1px;
+	float: left;
+	border-radius: 100%;
+	box-sizing: border-box;
+	border: 3px solid #000;
+	line-height: 45px;
+	text-align: center;
+	font-size: 30px;
+	background: #FEDAA4;
+	font-weight: bold;
+	cursor: pointer;
+}
+
+.piece-box.hide {
+	border: none;
+	background: transparent;
+	cursor: default;
+	box-shadow: none;
+}
+
+.piece-box.selected {
+	background: #ff0;
+}
+
+.piece-box.black {
+	color: #000;
+	border-color: #000;
+} 
+
+.piece-box.red {
+	color: #f00;
+	border-color: #f00;
+} 
+
+#buttons-container {
+    margin-top: 10px;
+}
+
+#new-game-btn {
+	margin-left: 15%;
+}
